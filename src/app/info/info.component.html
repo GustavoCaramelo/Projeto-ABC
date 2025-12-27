@@ -1,0 +1,19 @@
+<div class="container">
+    <h1 class="title">Informações</h1>
+
+    <div class="info-content" *ngIf="userData; else noData">
+        <div class="info-group">
+            <span class="label-red">Nome</span>
+            <div class="value-bold big">{{ userData.nome }}</div>
+        </div>
+
+        <div class="info-group">
+            <span class="label-gray">E-mail</span>
+            <div class="value-bold small">{{ userData.email }}</div>
+        </div>
+    </div>
+
+    <ng-template #noData>
+        <p>Nenhuma informação encontrada.</p>
+    </ng-template>
+</div>

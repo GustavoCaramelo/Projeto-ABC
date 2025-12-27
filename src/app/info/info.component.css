@@ -1,0 +1,50 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #000;
+    line-height: 1;
+}
+
+.info-content {
+    margin-top: 20px;
+    border-top: 1px solid #d4d4d4;
+    padding-top: 20px;
+}
+
+.info-group {
+    margin-bottom: 25px;
+}
+
+.label-red {
+    font-size: 16px;
+    color: #757575;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.label-gray {
+    font-size: 16px;
+    color: #757575;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.value-bold.big {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.value-bold.small {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}

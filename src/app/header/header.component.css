@@ -1,0 +1,28 @@
+.header {
+    background-color: #5e35b1;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    margin-left: 250px;
+}
+
+.w12 {
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+    margin-right: 250px;
+}
